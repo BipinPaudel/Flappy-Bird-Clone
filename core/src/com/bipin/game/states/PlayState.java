@@ -34,6 +34,7 @@ public class PlayState extends State {
         super(gsm);
         bird=new Bird(50,100);
         cam.setToOrtho(false, FlappyDemo.WIDTH/2,FlappyDemo.HEIGHT/2);
+//        cam.setToOrtho(false,0,0);
         bg=new Texture("bg.png");
         ground=new Texture("ground.png");
         groundPos1=new Vector2(cam.position.x-cam.viewportWidth/2,GROUND_OFFSET);
